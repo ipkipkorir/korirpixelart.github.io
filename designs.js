@@ -34,5 +34,6 @@ function makeGrid(n, m)
  else{
   $(this).attr('style', 'background-color:' + color);
  }
-});
+ });
+ 
 }
