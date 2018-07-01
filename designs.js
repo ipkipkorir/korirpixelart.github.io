@@ -15,6 +15,7 @@ $('sizePicker').submit(function (event) {
 
 function makeGrid(n, m) 
 { 
+  $('#pixelCanvas tr').remove();
   while(n > 0)
   {
       $('#pixelCanvas').append('<tr></tr>');
